@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>操作盒子屬性</title>
+    <style>
+      h1, div {
+        background-color: #eee;
+      }
+      h1 {
+        padding: 50px;
+      }
+      div {
+        padding: 50px 150px 50px 30px;
+      }
+      em {
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>這是 h1 元素，覆蓋灰色背景的區域，是 content 佔用的空間，四周各50px的padding</h1>
+    <div>這是 div 元素，預設是 block 的排列方式。，padding設定為 50px 150px 50px 30px;以 padding: [top] [right] [bottom] [left] 來表達。如果垂直和水平是對稱的，就可以寫成：padding: 50px 20px;</div>
+  </body>
+</html>

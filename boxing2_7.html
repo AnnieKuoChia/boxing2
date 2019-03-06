@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>操作盒子屬性</title>
+    <style>
+      h1, div {
+        background-color: #eee;
+      }
+
+      em {
+        background-color: pink;
+        padding: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Block 的盒子和 inline 盒子在 margin 的呈現方式不太一樣，讓我們試著在剛才放在 p 元素裡的 em 的 margin改成padding</h1>
+    <div>有粉紅色背景的是<em>inline 元素</em>，讓我們來看看<em>inline 元素</em>的行為有什麼不同。</div>
+    <h3>「em 元素」在瀏覽器裡佔用的寬度被 padding: 50px 撐開了；</h3>
+    <h3>「em 元素」這串文字在瀏覽器裡佔用高度並沒有改變、也沒有任何垂直方向的位移，然而 padding 延伸了出去，甚至蓋過其他的元素</h3>
+    
+  </body>
+</html>
